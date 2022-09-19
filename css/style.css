@@ -134,6 +134,11 @@ footer{
     font-weight: bolder;
 }
 
+#content-container p{
+    text-align: justify;
+}
+
+
 ul{
     list-style-type: none;
 }
