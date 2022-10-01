@@ -1,0 +1,172 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-a{
+    transition: all 0.3s ease-in-out;
+    color: #198754 !important;
+}
+
+.nav-style{
+    color: rgb(236, 221, 221) !important; 
+    letter-spacing: 4px;
+    text-shadow: 2px 2px #1C6758, 3px 3px #3D8361;
+}
+
+
+.nav-a:hover{
+    color: #b6d3c6;
+}
+
+.header-section{
+    background-image: url(/Assets/Header-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.content-container{
+    padding: 25% 5%;
+}
+
+.welcome-header{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+    /* background: rgb(228, 231, 228); */
+}
+
+
+.provi-text{
+    font-weight: 500;
+}
+
+.btn-white {
+    color: #fff;
+}
+
+.message-section{
+    background-color:#ecf39e;
+}
+
+footer{
+    background-color: #90a955;
+}
+
+.footer-a{
+    text-decoration: none;
+}
+
+.fa-brands:hover{
+    color: rgb(49, 47, 47);
+}
+
+.fa-brands{
+    color: black;    
+}
+
+.logo-footer{
+    width: 220px;
+    height: 200px;
+}
+
+.footer-div{
+    background-color: #4f772d;
+}
+
+/* About Us Section */
+.about-us-section{
+    text-align: center;
+}
+
+.card-1, .card-2, .card-3, .mis-vis-section, .product-header{
+    background-color: #ecf39e;
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover{
+    background-color: #4f772d;
+    color: #fff;
+}
+
+/* Mission Vision Section */
+.fa-eye, .fa-rocket{
+    margin-right: 0.2em;
+}
+
+/* Our Product Section */
+.breadcrumb-item a{
+    text-decoration: none;
+}
+
+.search-background{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+/* Modal */
+.message-modal {
+    text-decoration: underline;
+}
+
+/* Thank you Modal */
+.thank-you-check{
+    color: green;
+}
+
+.modal-image img{
+    transition: transform 0.5s, opacity 0.5s;
+    margin: 0;
+}
+
+.modal-image img:hover{
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+/* .fa-location-dot, .fa-envelope{
+    margin-left: 5px;
+} */
+
+/* CEO Section */
+.icon-square, .comp-name{
+    color: #4f772d;
+    font-weight: bolder;
+}
+
+#content-container p{
+    text-align: justify;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.icon-square-small{
+    color: #90a955;
+}
+
+
+/* CEO Section */
+.ceo-picture{
+    width: 250px; 
+    float: left; 
+    margin: 20px;
+}
+
+@media (max-width:768px) {
+    .ceo-picture{
+        display:block;
+        float: none;
+        text-align: center;
+    }
+}
+
+.ceo-other-picture{
+    width: 500px;
+}
+
+.services-picture{
+    width: 30rem;
+}
